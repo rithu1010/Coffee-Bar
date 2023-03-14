@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    padding-left: 8%;
+    padding-bottom: 1.5% !important;
+    padding-top: 1.5% !important;
+-webkit-box-shadow: 0 10px 6px -6px #777;
+ -moz-box-shadow: 0 10px 6px -6px #777;
+      box-shadow: 0 6px 6px -6px #777;
+
+  }
+  nav ul li {
+    padding: 0 10px 0 10px;
+    
+  }
+  img {
+    height: 47px;
+  }
+   nav.stroke ul li a,
+  nav.fill ul li a {
+    position: relative;
+  }
+   nav.stroke ul li a:after,
+  nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: ".";
+    color: transparent;
+    background: #006241;
+    height: 2.5px;
+    transition: .4s;
+  } 
+  nav.stroke ul li a:hover:after {
+    width: 100%;
+  }
+  .input1{
+    border-radius: 23px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-left: 16%;
+    height: 44px;
+  } 
+  form{
+    margin-right: 4%;
+    width: 264px;
+  }
+  .input-icons i {
+        position: absolute;
+    }
+      
+    .input-icons {
+        width: 242px;
+    }
+      
+    .icon {
+        padding: 10px;
+        color: rgb(1, 9, 1);
+        min-width: 50px;
+        text-align: center;
+    }
+    .btn-dark {
+        border-color: #ffffff;
+    }
+    .btn-dark {
+        border-color: #ffffff;
+        width: 113px;
+        border-radius: 50px;
+    }
+    .btn-dark:hover{
+        border-color: #ffffff;
+    }
